@@ -1,0 +1,10 @@
+Instruksjoner:
+
+Logget inn som root i mysql i terminalen skriv de to linjene under:
+CREATE USER 'testbruker'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+
+Database og tabell blir opprettet via php scripts.
+Alle filene må ligge i samme mappe.
+
+RegisterUser.php er siden som må lastes inn i nettleseren.
